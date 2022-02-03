@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Corn!</title>
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula nisi ac pretium fermentum. Vivamus sed dui erat. Nulla sit amet gravida neque, vitae eleifend mauris. Nam sagittis rhoncus hendrerit.">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Corn! Corn! Corn!</h1>
+            <a href="https://www.popcorn.org/All-About-Popcorn/Different-Types-of-Corn">
+                <img src="https://www.popcorn.org/portals/0/Sweet%20Corn%20Circle.png" alt="Picture of Sweet Corn" width="300" height="300">
+            </a>
+            <p>My Favorite Corn Dishes:</p>
+            <ul>
+                <li>Elotes</li>
+                <li>Korean Cheesy Corn</li>
+                <li>Corn in Crawfish Boils</li>
+                <li>Buttery Corn</li>
+            </ul>
+        </div>
+        <table style="border: 1px solid black">
+            <thead>
+                <tr>
+                    <th>Different Types of Corn</th>
+                    <th>My Ranking</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dent Corn</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Flint Corn</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Popcorn</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Sweet Corn</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="survey">
+            <h2>Please take this short survey</h2>
+            <form action="">
+                <label for="name">What is your name?</label>
+                <input type="text" name="name" id="name"><br>
+
+                <label for="favorite_corn">What is your favorite corn?</label>
+                <select name="favorite_corn" id="favorite_corn">
+                <option value="dent_corn">Dent Corn</option>
+                <option value="flint_corn">Flint Corn</option>
+                <option value="popcorn">Popcorn</option>
+                <option value="sweet_corn">Sweet Corn</option>
+                </select><br>
+
+                <label for="like_corn">Check this if you like corn</label>
+                <input type="checkbox" name="like_corn" id="like_corn"><br>
+            
+                <label for="one">On a scale of 1-3, how much do you like corn? (1 being you hate corn, 3 being you love corn):</label>
+                <input type="radio" name="ranking" id="one">
+                <label for="one">1</label>
+                <input type="radio" name="ranking" id="two">
+                <label for="two">2</label>
+                <input type="radio" name="ranking" id="three">
+                <label for="three">3</label><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
